@@ -3,7 +3,7 @@
 #include "bigdigits.h"
 
 int main() {
-    FILE* file = fopen("numbers.txt", "r");
+    FILE* file = fopen("../numbers.txt", "r");
     if (!file) {
         printf("Error file!");
         return 1;
